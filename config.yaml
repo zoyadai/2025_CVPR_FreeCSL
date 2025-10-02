@@ -1,0 +1,113 @@
+Caltech-5v:
+  seed: 42
+  train_param:
+    lr_pre: 0.0003
+    lr_train: 0.0005
+    batch_size: 512
+    Pre_epochs: 50
+    epochs: 50
+  Constr_param:
+    tau: 0.2
+    epsilon: 0.03
+    sinkhorn_iterations: 3
+    recon_dim: 64
+    z_dim: 64
+  MGC_param:
+    K_neighber: 3
+    graph_h_dim: 128
+    collapse_regularization: 0.01
+
+ALOI-100:
+  seed: 42
+  train_param:
+    lr_pre: 0.0003
+    lr_train: 0.0005
+    batch_size: 512
+    Pre_epochs: 50
+    epochs: 120
+  Constr_param:
+    tau: 0.1
+    epsilon: 0.05
+    sinkhorn_iterations: 3
+    recon_dim: 64
+    z_dim: 64
+  MGC_param:
+    K_neighber: 3
+    graph_h_dim: 128
+    collapse_regularization: 0.2
+
+YouTubeFace10_4Views:
+  seed: 42
+  train_param:
+    lr_pre: 0.0005
+    lr_train: 0.001
+    batch_size: 512
+    Pre_epochs: 50
+    epochs: 50
+  Constr_param:
+    tau: 0.2
+    epsilon: 0.05
+    sinkhorn_iterations: 3
+    recon_dim: 64
+    z_dim: 64
+  MGC_param:
+    K_neighber: 3
+    graph_h_dim: 128
+    collapse_regularization: 0.2
+
+NoisyMNIST:
+  seed: 42
+  train_param:
+    lr_pre: 0.0005
+    lr_train: 0.001
+    batch_size: 1024
+    Pre_epochs: 50
+    epochs: 90
+  Constr_param:
+    tau: 0.1
+    epsilon: 0.05
+    sinkhorn_iterations: 3
+    recon_dim: 64
+    z_dim: 64
+  MGC_param:
+    K_neighber: 3
+    graph_h_dim: 128
+    collapse_regularization: 0.3
+
+NUS-WIDE-OBJECT-10:
+  seed: 42
+  train_param:
+    lr_pre: 0.01
+    lr_train: 0.005
+    batch_size: 512
+    Pre_epochs: 50
+    epochs: 100
+  Constr_param:
+    tau: 0.2
+    epsilon: 0.03
+    sinkhorn_iterations: 3
+    recon_dim: 64
+    z_dim: 64
+  MGC_param:
+    K_neighber: 3
+    graph_h_dim: 128
+    collapse_regularization: 0.1
+
+Yale:
+  seed: 42
+  train_param:
+    lr_pre: 0.0003
+    lr_train: 0.0010
+    batch_size: 165
+    Pre_epochs: 50
+    epochs: 60
+  Constr_param:
+    tau: 0.1
+    epsilon: 0.05
+    sinkhorn_iterations: 3
+    recon_dim: 64
+    z_dim: 64
+  MGC_param:
+    K_neighber: 3
+    graph_h_dim: 128
+    collapse_regularization: 0.2
