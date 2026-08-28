@@ -1,4 +1,4 @@
-Caltech-5v:
+Caltech-5V:
   seed: 42
   train_param:
     lr_pre: 0.0003
